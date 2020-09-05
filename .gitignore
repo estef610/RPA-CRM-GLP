@@ -4,6 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
+ App.test.js
+Op1.html
+R-U1.html
+logo.svg
+serviceWorker.js
+setupTests.js
+A-C1.js
+
 
 # testing
 /coverage
