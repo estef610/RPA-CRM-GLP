@@ -12,7 +12,7 @@ const Estado= ()=> {
     return (
         <div>
            <h3>{texto}</h3> 
-           <button onClick={ ()=> estadoClick()}>Unidad</button>
+           <button onClick={ ()=> estadoClick()}>Jornada</button>
         </div>
         
     )

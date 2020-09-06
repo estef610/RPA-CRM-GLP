@@ -4,13 +4,13 @@
 /node_modules
 /.pnp
 .pnp.js
- App.test.js
-Op1.html
-R-U1.html
-logo.svg
-serviceWorker.js
-setupTests.js
-A-C1.js
+src/App.test.js
+src/Op1.html
+src/R-U1.html
+src/logo.svg
+src/serviceWorker.js
+src/setupTests.js
+src/A-C1.js
 
 
 # testing

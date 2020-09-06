@@ -1,9 +1,11 @@
 import React from 'react';
 
-function Agenda(props){
+const Agenda= ()=> {
     return(
-        <h1>Agendados</h1>
-    );
+        <div>
+            <h1>Agenda</h1>
+        </div>
+    )
 }
 
-export default Agenda;
+export default Agenda

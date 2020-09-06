@@ -2,7 +2,7 @@ import React from 'react';
 import Search from './Search.js';
 import Estado from "./components/Estado.jsx";
 import Nuevau from './components/Nuevau.jsx';
-
+import Pago from "./components/Pago.jsx";
 function Perfil(props){
     return(
 
@@ -20,6 +20,10 @@ function Perfil(props){
 
                 <div className="Estado">
                     <Estado/>
+                </div> 
+
+                <div className="Pago">
+                    <Pago/>
                 </div> 
 
                 <div className="NuevaU">

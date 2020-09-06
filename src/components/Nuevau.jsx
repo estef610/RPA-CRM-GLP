@@ -24,7 +24,8 @@ const Nuevau= ()=> {
                     <input type="text" className="form-control mb-2" placeholder="Ingrese las colonias de BlackList" />
                     <input type="text" className="form-control mb-2" placeholder="Espesifique días de actividad" />
             
-                    <button onClick="" >Agregar</button>
+                    <button onClick="" >Registrar</button>
+                    <button onClick="" >Regresar</button>
                 </form>
             </div>
         </div>
