@@ -9,7 +9,6 @@ const Estado= ()=> {
         setTexto('Inactiva')
     }
 
-
     return (
         <div>
            <h3>{texto}</h3> 
