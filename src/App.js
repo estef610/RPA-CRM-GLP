@@ -2,6 +2,10 @@ import React from 'react'
 import Perfil from "./Perfil.js";
 import Agenda from "./Agenda.js";
 import Facturacion from "./Facturacion.js";
+import Pedidos from "./Pedidos.js";
+import Inicio from "./components/Inicio.jsx";
+import Glp from "./components/Glp.jsx";
+
 
 import {
   BrowserRouter as Router,
@@ -12,10 +16,19 @@ import {
 
 function App() {
   return (
+
   <Router>
-    
-    <div className="container mt-3" >
+    <div><Glp /></div>
+    <div className="container mt-0" >
       <div className="btn-group" >
+
+        <Link to="/Inicio" className="btn btn-dark">
+          Inicio
+        </Link>
+
+        <Link to="/Pedidos" className="btn btn-dark">
+          Pedidos
+        </Link>
 
         <Link to="/Perfil" className="btn btn-dark">
           Perfil
@@ -40,6 +53,11 @@ function App() {
         <Perfil />
       </Route>
 
+      <Route path="/Pedidos">
+        Pedidos
+        <Pedidos />
+      </Route>
+
       <Route path="/Agenda">
         Pedidos Programados
         <Agenda />
@@ -48,6 +66,11 @@ function App() {
       <Route path="/Facturacion">
         Facturacion
         <Facturacion />
+      </Route>
+
+      <Route path="/Inicio">
+        Inicio
+        <Inicio />
       </Route>
 
     </Switch>
