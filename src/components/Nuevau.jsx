@@ -1,21 +1,21 @@
 import React from 'react'
 
-const Nuevau= ()=> {
+const Nuevau = () => {
 
-    
-    const [Unidad,setUnidad]= React.useState('')
+
+    const [Unidad, setUnidad] = React.useState('')
 
     return (
         <div>
-                <br/>
+            <br />
             <h3>Registro de Nueva Unidad</h3>
-                <br/>
+            <br />
             <h5>Ingrese ...</h5>
-                <br/>
+            <br />
 
             <div>
                 <form action="">
-                    <input type="text" className="form-control mb-2" placeholder="Tipo Unidad"/>
+                    <input type="text" className="form-control mb-2" placeholder="Tipo Unidad" />
                     <input type="text" className="form-control mb-2" placeholder="Cabina" />
                     <input type="text" className="form-control mb-2" placeholder="Id Unidad" />
                     <input type="text" className="form-control mb-2" placeholder="Id Operador" />
@@ -23,9 +23,19 @@ const Nuevau= ()=> {
                     <input type="text" className="form-control mb-2" placeholder="Ingrese las colonias de Cobertura" />
                     <input type="text" className="form-control mb-2" placeholder="Ingrese las colonias de BlackList" />
                     <input type="text" className="form-control mb-2" placeholder="Espesifique días de actividad" />
-            
-                    <button onClick="" >Registrar</button>
-                    <button onClick="" >Regresar</button>
+
+                    <button
+                        className="btn btn-dark btn-primary"
+                        type="submit"
+                        onClick="" >
+                        Registrar
+                        </button>
+                    <button
+                        className="btn btn-dark btn-primary"
+                        type="submit"
+                        onClick="" >
+                        Regresar
+                        </button>
                 </form>
             </div>
         </div>

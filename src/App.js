@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 import Perfil from "./Perfil.js";
 import Agenda from "./Agenda.js";
 import Facturacion from "./Facturacion.js";
 import Pedidos from "./Pedidos.js";
-import Inicio from "./components/Inicio.jsx";
+import Inicio from "./Inicio.js";
 import Glp from "./components/Glp.jsx";
+import Login from "./Login.js";
 
 
 import {
@@ -20,6 +21,7 @@ function App() {
   <Router>
     <div><Glp /></div>
     <div className="container mt-0" >
+      
       <div className="btn-group" >
 
         <Link to="/Inicio" className="btn btn-dark">
@@ -42,6 +44,10 @@ function App() {
           Factura
         </Link>
 
+        <Link to="/Login" className="btn btn-dark">
+          Login
+        </Link>
+
       </div>
         <hr/>
     </div>
@@ -49,28 +55,51 @@ function App() {
     <Switch>
 
       <Route path="/Perfil">
-        Perfil de unidad
+      <div className="container">
+          <h4 className="text-center">Perfil de unidad</h4>
+          <hr/>
+        </div>
         <Perfil />
       </Route>
 
       <Route path="/Pedidos">
-        Pedidos
+      <div className="container">
+          <h4 className="text-center">Pedidos</h4>
+          <hr/>
+        </div>
         <Pedidos />
       </Route>
 
       <Route path="/Agenda">
-        Pedidos Programados
+      <div className="container">
+          <h4 className="text-center">Pedidos programados</h4>
+          <hr/>
+        </div>
         <Agenda />
       </Route>
       
       <Route path="/Facturacion">
-        Facturacion
+      <div className="container">
+          <h4 className="text-center">Facturacion</h4>
+          <hr/>
+        </div>
         <Facturacion />
       </Route>
 
       <Route path="/Inicio">
-        Inicio
+      <div className="container">
+          <h4 className="text-center">Inicio</h4>
+          <hr/>
+        </div>
         <Inicio />
+      </Route>
+
+      <Route path="/Login">
+        <div className="container">
+          <h4 className="text-center">Login and sing up</h4>
+          <hr/>
+        </div>
+        <Login />
       </Route>
 
     </Switch>

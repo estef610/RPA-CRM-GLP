@@ -64,8 +64,17 @@ const Levantar = () => {
                 <input type="text" className="form-control mb-2" placeholder="Descripcion"
                     onChange={ (e) => setDescripcion(e.target.value) } />
 
-                <button className="btn btn-primary " type="submit" >Levantar</button>
-                <button className="btn btn-primary " type="submit">Regresar</button>
+                <button 
+                className="btn btn-dark btn-primary" 
+                type="submit" >
+                    Levantar
+                </button>
+                <button 
+                className="btn btn-dark btn-primary" 
+                type="submit"
+                >
+                    Regresar
+                </button>
  
             <form onSubmit={guardarDatos}>...
                 <ul>{

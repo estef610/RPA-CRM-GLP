@@ -3,9 +3,11 @@ import Levantar from "./components/Levantar.jsx";
 
 const Pedidos = () => {
     return (
-        <div>
+        <div className="container">
+            <hr/>
             <Levantar />
         </div>
+        
     )
 }
 

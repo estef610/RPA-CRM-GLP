@@ -1,20 +1,28 @@
-import React, {useState}  from 'react';
+import React, { useState } from 'react';
 
 
-const Estado= ()=> {
+const Estado = () => {
 
-    const [texto, setTexto]= useState('Activa')
+    const [texto, setTexto] = useState('Activa')
+    const [jornada, setJornada] = React.useState(true)
 
-    const estadoClick= ()=> {
+    const estadoClick = () => {
         setTexto('Inactiva')
     }
 
     return (
         <div>
-           <h3>{texto}</h3> 
-           <button onClick={ ()=> estadoClick()}>Jornada</button>
+            <h3>{texto}</h3>
+            <button
+                className="btn btn-dark btn-primary"
+                type="submit"
+                //onClick=
+                onClick={() => estadoClick(), () => setJornada(!jornada)}
+            >
+               {jornada ? 'Inactiva' : 'Activar'}
+               </button>
         </div>
-        
+
     )
 }
 

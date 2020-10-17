@@ -12,7 +12,13 @@ const Pago= ()=> {
     return (
         <div>
            <h3>{texto}</h3> 
-           <button onClick={ ()=> pagoClick()}>Pago</button>
+           <button 
+           className="btn btn-dark btn-primary"
+           type="submit"
+           onClick={ ()=> pagoClick()}
+           >
+               Pago
+           </button>
         </div>
         
     )
