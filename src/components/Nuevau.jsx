@@ -3,7 +3,7 @@ import React from 'react'
 const Nuevau = () => {
 
 
-    const [Unidad, setUnidad] = React.useState('')
+    //const [Unidad, setUnidad] = React.useState('')
 
     return (
         <div>
@@ -25,17 +25,18 @@ const Nuevau = () => {
                     <input type="text" className="form-control mb-2" placeholder="Espesifique días de actividad" />
 
                     <button
-                        className="btn btn-dark btn-primary"
+                        className="btn btn-dark btn-primary mr-2"
                         type="submit"
                         onClick="" >
                         Registrar
-                        </button>
+                    </button>
                     <button
-                        className="btn btn-dark btn-primary"
+                        className="btn btn-dark btn-primary mr-2"
                         type="submit"
                         onClick="" >
                         Regresar
-                        </button>
+                    </button>
+                        <br/><br/> 
                 </form>
             </div>
         </div>

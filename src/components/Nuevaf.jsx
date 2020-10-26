@@ -33,21 +33,21 @@ const Nuevaf = () => {
                         <br />
 
                         <button
-                            className="btn btn-dark btn-primary"
+                            className="btn btn-dark btn-primary mr-2"
                             type="submit"
                             onClick=""
                         >
                             Agregar
                     </button>
                         <button
-                            className="btn btn-dark btn-primary"
+                            className="btn btn-dark btn-primary mr-2"
                             type="submit"
                             onClick=""
                         >
                             Facturar
                     </button>
                         <button
-                            className="btn btn-dark btn-primary"
+                            className="btn btn-dark btn-primary mr-2"
                             type="submit"
                             onClick=""
                         >

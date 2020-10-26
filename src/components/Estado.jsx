@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
 
 const Estado = () => {
@@ -16,11 +16,11 @@ const Estado = () => {
             <button
                 className="btn btn-dark btn-primary"
                 type="submit"
-                //onClick=
                 onClick={() => estadoClick(), () => setJornada(!jornada)}
             >
                {jornada ? 'Inactiva' : 'Activar'}
-               </button>
+            </button>
+               <br/><br/> 
         </div>
 
     )

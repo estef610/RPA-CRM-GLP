@@ -3,7 +3,6 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/auth'
 
-
 const firebaseConfig = {
     apiKey: "AIzaSyBo886wDVNgk2ojGe0OiWlt2ccG8x-im_Q",
     authDomain: "rpa-de-crm-de-glp.firebaseapp.com",
@@ -19,4 +18,4 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 const auth = firebase.auth();
 
-export {firebase}
+export  {firebase} 

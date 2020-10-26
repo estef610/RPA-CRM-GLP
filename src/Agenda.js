@@ -1,6 +1,6 @@
-import React from 'react';
-import Programados from "./components/Programados.jsx";
-import Seguimiento from "./components/Seguimiento.jsx";
+import React from 'react'
+import Programados from "./components/Programados"
+import Seguimiento from "./components/Seguimiento"
 
 
 function Agenda() {

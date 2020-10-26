@@ -1,5 +1,5 @@
 import React from 'react'
-import Inicio from '../Inicio'
+
 
 const Construccion= () => {
     return (

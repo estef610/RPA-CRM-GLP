@@ -65,12 +65,12 @@ const Levantar = () => {
                     onChange={ (e) => setDescripcion(e.target.value) } />
 
                 <button 
-                className="btn btn-dark btn-primary" 
+                className="btn btn-dark btn-primary mr-2" 
                 type="submit" >
                     Levantar
                 </button>
                 <button 
-                className="btn btn-dark btn-primary" 
+                className="btn btn-dark btn-primary mr-2" 
                 type="submit"
                 >
                     Regresar

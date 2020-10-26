@@ -1,8 +1,8 @@
-import React from 'react';
-import Search from './Search.js';
-import Estado from "./components/Estado.jsx";
-import Nuevau from './components/Nuevau.jsx';
-import Pago from "./components/Pago.jsx";
+import React from 'react'
+import Search from './Search'
+import Estado from "./components/Estado"
+import Nuevau from './components/Nuevau'
+import Pago from "./components/Pago"
 function Perfil(props) {
     return (
 
@@ -10,9 +10,9 @@ function Perfil(props) {
             <hr />
             <div className="subcontainer">
 
-                { /*   <div className="logo">
+                {   <div className="logo">
                     {props.title}
-                </div> */}
+                </div> }
 
                 <div className="search">
                     <Search />
@@ -30,8 +30,8 @@ function Perfil(props) {
                 <div className="NuevaU">
                     <Nuevau />
                     <button
-                        className="btn btn-dark btn-primary mt-2"
-                        onClick="./components/Nuevau.jsx"
+                        className="btn btn-dark btn-primary mr-2"
+                        onClick="./components/Nuevau"
                     >
                         Nueva Unidad
                     </button>
@@ -44,4 +44,4 @@ function Perfil(props) {
 }
 
 
-export default Perfil;
+export default Perfil

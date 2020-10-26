@@ -1,5 +1,5 @@
 import React from 'react'
-import Levantar from "./components/Levantar.jsx";
+import Levantar from "./components/Levantar"
 
 const Pedidos = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import Nuevaf from "./components/Nuevaf.jsx";
+import Nuevaf from "./components/Nuevaf"
 
 import {
   BrowserRouter as Router,
@@ -36,4 +36,4 @@ function Facturacion() {
   );
 }
  
-export default Facturacion;
+export default Facturacion
