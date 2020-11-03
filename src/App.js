@@ -1,12 +1,12 @@
 import React from 'react'
+import './index.css'
 import Login from "./Login"
-import Agenda from "./Agenda"
+import Ergonomico from "./Ergonomico"
 import Facturacion from "./Facturacion"
 import Glp from "./components/Glp"
-import GPS from "./GPS"
 import Pedidos from "./Pedidos"
-import Perfil from "./Perfil"
-import Unidad from "./Unidad"
+import QF from "./QF"
+
 
 import {
   BrowserRouter as Router,
@@ -27,30 +27,21 @@ function App() {
       <Link to="/Login" className="btn btn-dark">
           Login
         </Link>
-
-        <Link to="/Agenda" className="btn btn-dark">
-          Agenda
+        
+        <Link to="/Ergonomico" className="btn btn-dark">
+          Ergonomico
         </Link>
 
         <Link to="/Facturacion" className="btn btn-dark">
           Factura
         </Link>
 
-        <Link to="/GPS" className="btn btn-dark">
-          GPS
-        </Link>
-
         <Link to="/Pedidos" className="btn btn-dark">
           Pedidos
         </Link>
 
-        <Link to="/Perfil" className="btn btn-dark">
-          Perfil
-        </Link>
-
-
-        <Link to="/Unidad" className="btn btn-dark">
-          Unidad
+        <Link to="/QF" className="btn btn-dark">
+          Q&F
         </Link>
 
       </div>
@@ -66,59 +57,38 @@ function App() {
         </div>
         <Login />
       </Route>
-
-    <Route path="/Agenda">
+      
+      <Route path="/Ergonomico">
       <div className="container">
-          <h4 className="text-center">Pedidos programados</h4>
-          <hr/>
+          <h4 className="text-center"></h4>
         </div>
-        <Agenda />
+        <Ergonomico />
       </Route>
-     
+
       <Route path="/Facturacion">
       <div className="container">
           <h4 className="text-center">Facturacion</h4>
-          <hr/>
         </div>
         <Facturacion />
-      </Route>
-
-      <Route path="/GPS">
-      <div className="container">
-          <h4 className="text-center">GPS</h4>
-          <hr/>
-        </div>
-        <GPS />
       </Route>
  
       <Route path="/Pedidos">
       <div className="container">
           <h4 className="text-center">Pedidos</h4>
-          <hr/>
         </div>
         <Pedidos />
       </Route>
 
-      <Route path="/Perfil">
-      <div className="container">
-          <h4 className="text-center">Perfil de unidad</h4>
-          <hr/>
+      <Route path="/QF">
+        <div className="container">
+          <h4 className="text-center">Reportes</h4>
         </div>
-        <Perfil />
-      </Route>
-
-      <Route path="/Unidad">
-      <div className="container">
-          <h4 className="text-center">Unidad</h4>
-          <hr/>
-        </div>
-        <Unidad />
+        <QF />
       </Route>
 
     </Switch>
   </Router>
     
-  );
+  )
 }
- 
 export default App

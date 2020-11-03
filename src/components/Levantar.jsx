@@ -44,22 +44,17 @@ const Levantar = () => {
 
     }
     return (
-        <div>
-            <br/>
-            <h3>Nuevo Pedido</h3>
-                <br/>
-            <h5>Ingrese ...</h5>
-                <br/>
-            
-                <input type="text" className="form-control mb-2" placeholder="id Unidad"
+        <div className="container">
+            <form>
+                <input type="text" className="form mb-2 mr-2" placeholder="Id Unidad"
                     onChange={ (e) => setIdunidad(e.target.value) } />
-                <input type="text" className="form-control mb-2" placeholder="id Cliente"
+                <input type="text" className="form mb-2 mr-2" placeholder="Id Cliente"
                     onChange={ (e) => setIdcliente(e.target.value) } />
-                <input type="text" className="form-control mb-2" placeholder="Capacidad"
+                <input type="text" className="form mb-2 mr-2" placeholder="Capacidad"
                     onChange={ (e) => setIdunidad(e.target.value) } />
-                <input type="text" className="form-control mb-2" placeholder="Tel Cliente"
+                <input type="text" className="form mb-2 mr-2" placeholder="Tel Cliente"
                     onChange={ (e) => setTelcliente(e.target.value) } />
-                <input type="text" className="form-control mb-2" placeholder="Pago"
+                <input type="text" className="form mb-2 mr-2" placeholder="Pago"
                     onChange={ (e) => setPago(e.target.value) } />
                 <input type="text" className="form-control mb-2" placeholder="Descripcion"
                     onChange={ (e) => setDescripcion(e.target.value) } />
@@ -75,7 +70,7 @@ const Levantar = () => {
                 >
                     Regresar
                 </button>
- 
+                </form>
             <form onSubmit={guardarDatos}>...
                 <ul>{
                     lista.map((item,index) =>(

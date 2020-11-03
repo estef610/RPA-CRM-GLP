@@ -1,6 +1,5 @@
 import React from 'react'
 import Cobertura from './components/Cobertura'
-/*import GPS from './components/GPS'*/
 import { firebase } from './firebase'
 
 function Unidad() {

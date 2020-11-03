@@ -10,30 +10,32 @@ import {
 
 function Facturacion() {
   return (
-  <Router>
-    
-    <div className="container mt-5" >
-      <div className="btn-group" >
+    <Router>
 
-        <Link to="/Nuevaf" className="btn btn-dark">
-          Nueva Factura
-        </Link>
+      <div className="container mt-1" >
+        <div className="btn-group" >
 
+          <Link to="/Nuevaf" className="btn btn-dark">
+            Nueva Factura
+          </Link>
+        </div>
+        <hr />
       </div>
-        <hr/>
-    </div>
 
-    <Switch>
+      <Switch>
 
-      <Route path="/Nuevaf">
-        Perfil de unidad
+        <Route path="/Nuevaf">
+          <div className="container">
+            <h4 className="text-center">Perfil de unidad</h4>
+            <hr/>
+          </div>
         <Nuevaf />
-      </Route>
+        </Route>
 
-    </Switch>
-  </Router>
-    
+      </Switch>
+    </Router>
+
   );
 }
- 
+
 export default Facturacion
