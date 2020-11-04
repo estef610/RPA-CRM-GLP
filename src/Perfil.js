@@ -3,7 +3,9 @@ import Search from './Search'
 import Estado from "./components/Estado"
 import Nuevau from './components/Nuevau'
 import Pago from "./components/Pago"
+
 function Perfil(props) {
+
     return (
 
         <div className="container">
@@ -14,7 +16,7 @@ function Perfil(props) {
                     {props.title}
                 </div> }
 
-                <div className="search">
+                <div className="Search">
                     <Search />
                 </div>
 
@@ -40,7 +42,7 @@ function Perfil(props) {
 
             </div>
         </div>
-    );
+    )
 }
 
 

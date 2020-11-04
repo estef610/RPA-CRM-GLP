@@ -6,24 +6,22 @@ const Nuevau = () => {
     //const [Unidad, setUnidad] = React.useState('')
 
     return (
-        <div>
+        <div  className='container'>
             <br />
             <h3>Registro de Nueva Unidad</h3>
-            <br />
-            <h5>Ingrese ...</h5>
             <br />
 
             <div>
                 <form action="">
-                    <input type="text" className="form-control mb-2" placeholder="Tipo Unidad" />
-                    <input type="text" className="form-control mb-2" placeholder="Cabina" />
-                    <input type="text" className="form-control mb-2" placeholder="Id Unidad" />
-                    <input type="text" className="form-control mb-2" placeholder="Id Operador" />
-                    <input type="text" className="form-control mb-2" placeholder="Asigne el Horario" />
-                    <input type="text" className="form-control mb-2" placeholder="Ingrese las colonias de Cobertura" />
-                    <input type="text" className="form-control mb-2" placeholder="Ingrese las colonias de BlackList" />
-                    <input type="text" className="form-control mb-2" placeholder="Espesifique días de actividad" />
-
+                    <input type="text" className="form mr-2 mb-2" placeholder="Tipo Unidad" />
+                    <input type="text" className="form mr-2 mb-2" placeholder="Cabina" />
+                    <input type="text" className="form mr-2 mb-2" placeholder="Id Unidad" />
+                    <input type="text" className="form mr-2 mb-2" placeholder="Id Operador" />
+                    <input type="text" className="form mr-2 mb-2" placeholder="Asigne el Horario" />
+                    <input type="text" className="form mr-2 mb-2" placeholder="Colonias de Cobertura" />
+                    <input type="text" className="form mr-2 mb-2" placeholder="Colonias de BlackList" />
+                    <input type="text" className="form mr-2 mb-2" placeholder="Días de actividad" />
+                        <br/><br/>
                     <button
                         className="btn btn-dark btn-primary mr-2"
                         type="submit"

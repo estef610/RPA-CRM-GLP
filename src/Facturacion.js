@@ -12,7 +12,7 @@ function Facturacion() {
   return (
     <Router>
 
-      <div className="container mt-1" >
+      <div className="container" >
         <div className="btn-group" >
 
           <Link to="/Nuevaf" className="btn btn-dark">
