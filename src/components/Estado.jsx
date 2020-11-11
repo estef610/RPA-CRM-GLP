@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 
-
 const Estado = () => {
 
     const [texto, setTexto] = useState('Activa')
@@ -14,7 +13,7 @@ const Estado = () => {
         <div>
             <h3>{texto}</h3>
             <button
-                className="btn btn-dark btn-primary"
+                className="btn btn-dark"
                 type="submit"
                 onClick={() => estadoClick(), () => setJornada(!jornada)}
             >
@@ -22,7 +21,6 @@ const Estado = () => {
             </button>
                <br/><br/> 
         </div>
-
     )
 }
 

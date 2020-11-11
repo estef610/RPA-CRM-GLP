@@ -45,7 +45,9 @@ const Levantar = () => {
     }
     return (
         <div className="container">
+
             <form>
+                <br/>
                 <input type="text" className="form mb-2 mr-2" placeholder="Id Unidad"
                     onChange={ (e) => setIdunidad(e.target.value) } />
                 <input type="text" className="form mb-2 mr-2" placeholder="Id Cliente"
@@ -58,7 +60,7 @@ const Levantar = () => {
                     onChange={ (e) => setPago(e.target.value) } />
                 <input type="text" className="form-control mb-2" placeholder="Descripcion"
                     onChange={ (e) => setDescripcion(e.target.value) } />
-
+                <br/>
                 <button 
                 className="btn btn-dark btn-primary mr-2" 
                 type="submit" >
@@ -80,7 +82,6 @@ const Levantar = () => {
                     ))
                 }</ul>
                     
-                
             </form>
         </div>
     )

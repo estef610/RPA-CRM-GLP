@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css'
+import Cajas from "./Cajas"
 import Login from "./Login"
 import Ergonomico from "./Ergonomico"
 import Facturacion from "./Facturacion"
@@ -24,8 +25,12 @@ function App() {
       
       <div className="btn-group" >
 
-      <Link to="/Login" className="btn btn-dark">
+        <Link to="/Login" className="btn btn-dark">
           Login
+        </Link>
+
+        <Link to="/Cajas" className="btn btn-dark">
+          Cajas
         </Link>
         
         <Link to="/Ergonomico" className="btn btn-dark">
@@ -50,7 +55,15 @@ function App() {
 
     <Switch>
 
-    <Route path="/Login">
+      <Route path="/Cajas">
+        <div className="container">
+          <h4 className="text-center">Cajas</h4>
+          <hr/>
+        </div>
+        <Cajas />
+      </Route>
+
+      <Route path="/Login">
         <div className="container">
           <h4 className="text-center">Login and sing up</h4>
           <hr/>
